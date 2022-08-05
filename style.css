@@ -1,0 +1,397 @@
+.containerhead{
+  display: grid;
+  grid-gap: .5em;
+  grid-template-areas:
+    "arrow-icon nameheader bars-icon";
+  grid-template-rows: 10% 80% 10%;
+  }
+.containerpicture{
+  float: left;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: none;
+}
+.text-box1a{ 
+  display: grid;
+  grid-gap: 5em;
+  grid-template-areas:
+    "13";
+  grid-template-rows: 33%;
+  
+}
+
+.text-box1b{ 
+  display: grid;
+  grid-gap: 5em;
+  grid-template-areas:
+    "815";
+  grid-template-rows: 33%;
+}
+
+.text-box1c{ 
+  display: grid;
+  grid-gap: 5em;
+  grid-template-areas:
+    "1995";
+  grid-template-rows: 33%;
+}
+.text-box2{
+  display: grid;
+  grid-gap: 5em;
+  grid-template-areas:
+    "posts followers following";
+  grid-template-rows: 33% 33% 33%;
+  
+}
+.btnfollow{
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  background-color: #2196f3;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px
+}
+.btnfollow:hover{
+  background-color: #0b7dda
+}
+
+#photoArray{
+  display: grid;
+  grid-gap: .5em;
+  grid-template-areas:
+    "container1 container2 container3"
+    "container4 container5 container6";
+  grid-template-columns: 33% 33% 33%;
+  
+}
+
+.container1{
+  position: relative;
+  width: 55%;
+}
+.container1 img{
+  width: 100px;
+  height: 100px;
+ 
+}
+.container1 .btn{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  background-color: none;
+  color: white;
+  font-size: 10px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container1 .btn:hover{
+  background-color: #555;
+}
+
+.container2{
+  position: relative;
+  width: 55%;
+}
+.container2 img{
+  width: 100px;
+  height: 100px;
+ 
+}
+.container2 .btn{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  background-color: none;
+  color: white;
+  font-size: 10px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container2 .btn:hover{
+  background-color: #555;
+}
+
+.container3{
+  position: relative;
+  width: 55%;
+}
+.container3 img{
+  width: 100px;
+  height: 100px;
+ 
+}
+.container3 .btn{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  background-color: none;
+  color: white;
+  font-size: 10px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container3 .btn:hover{
+  background-color: #555;
+}
+
+.container4{
+  position: relative;
+  width: 55%;
+}
+.container4 img{
+  width: 100px;
+  height: 100px;
+ 
+}
+.container4 .btn{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  background-color: none;
+  color: white;
+  font-size: 10px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container4 .btn:hover{
+  background-color: #555;
+}
+
+
+.container5{
+  position: relative;
+  width: 55%;
+}
+.container5 img{
+  width: 100px;
+  height: 100px;
+ 
+}
+.container5 .btn{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  background-color: none;
+  color: white;
+  font-size: 10px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container5 .btn:hover{
+  background-color: #555;
+}
+
+
+.container6{
+  position: relative;
+  width: 55%;
+}
+.container6 img{
+  width: 100px;
+  height: 100px;
+ 
+}
+.container6 .btn{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
+  background-color: none;
+  color: white;
+  font-size: 10px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container6 .btn:hover{
+  background-color: #555;
+}
+
+.container1a{
+  position: relative;
+  width: 100%;
+  margin: 1.5px;
+  font-size: 20px;
+}
+.container1a img{
+  width: 100%;
+  height: auto;
+ 
+}
+.container1a .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container2a{
+  position: relative;
+  width: 100%;
+  margin: 1.5px;
+  font-size: 14px
+}
+.container2a img{
+  width: 100%;
+  height: auto;
+ 
+}
+.container2a .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container3a{
+  position: relative;
+  width: 100%;
+  margin: 1.5px;
+  font-size:12px;
+}
+.container3a img{
+  width: 100%;
+  height: auto;
+ 
+}
+.container3a .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container4a{
+  position: relative;
+  width: 100%;
+  margin: 1.5px;
+  font-size: 16px;
+}
+.container4a img{
+  width: 100%;
+  height: auto;
+ 
+}
+.container4a .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container5a{
+  position: relative;
+  width: 100%;
+  margin: 1.5px;
+  font-size:16px;
+}
+.container5a img{
+  width: 100%;
+  height: auto;
+ 
+}
+.container5a .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container6a{
+  position: relative;
+  width: 100%;
+  margin: 1.5px;
+  font-size: 16px;
+}
+.container6a img{
+  width: 100%;
+  height: auto;
+ 
+}
+.container6a .btn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: none;
+  color: white;
+  font-size: 24px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
